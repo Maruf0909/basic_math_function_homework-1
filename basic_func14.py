@@ -8,4 +8,9 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    from math import floor
+    div = a / b
+    result = floor(div)
+
+    return result
+print(main(25, 2))
