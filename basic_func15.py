@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    div = a % b
+
+    return div
+print(main(29, 5))
