@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    mult = a * b
+
+    return mult
+print(main(9, 4))
