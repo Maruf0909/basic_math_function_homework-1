@@ -7,4 +7,12 @@ def main(a):
     Returns:
         float: the absolute value.
     '''
-    return
+    from math import sqrt
+    
+    root = sqrt(a)
+
+
+    return root
+print(main(64))
+
+
