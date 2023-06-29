@@ -8,7 +8,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    value = a - b
-    result = abs(value)
-    return result
+    return abs(a-b)
 print(main(9, 11))
