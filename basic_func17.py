@@ -9,6 +9,5 @@ def main():
     Returns:
         float: the value of pi.
     '''
-    value = pi
-    return value 
+    return pi 
 print(main())
