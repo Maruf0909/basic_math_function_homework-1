@@ -8,7 +8,6 @@ def main(a, b):
     Returns:
         int: the sum.
     '''
-    sum = a + b
 
-    return sum
+    return a+b
 print(main(4, 9))
