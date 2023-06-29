@@ -7,6 +7,6 @@ def main(a):
     Returns:
         float: the result
     '''
-    value = round(a, 2)
-    return value
+     
+    return round(a, 2)
 print(main(6.453))
