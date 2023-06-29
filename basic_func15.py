@@ -8,7 +8,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    div = a % b
 
-    return div
+    return a%b
 print(main(29, 5))
