@@ -8,11 +8,7 @@ def main(a):
     Returns:
         float: the absolute value.
     '''
-    
-    root = sqrt(a)
-
-
-    return root
+    return sqrt(a)
 print(main(64))
 
 
