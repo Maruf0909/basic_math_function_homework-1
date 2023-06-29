@@ -11,8 +11,5 @@ def main(a, b):
         int: the result.
     '''
 
-    div = a / b
-    result = floor(div)
-
-    return result
+    return floor(a/b)
 print(main(25, 2))
